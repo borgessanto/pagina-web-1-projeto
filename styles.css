@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #c0a5a5;
+    background-color: #b60000;
 }
 
 
@@ -41,10 +41,11 @@ section {
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
+    right: 14rem;
+    top: 23rem;
+    width: 38rem;
     height: auto;
+    
 }
 
 
@@ -58,7 +59,7 @@ section {
 
 .botao-inicio {
     background-color: var(--laranja-claro);
-    border-radius: 30px;
+    border-radius: 20px;
     border: none;
     width: 14em;
     height: 3em;
@@ -100,7 +101,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #7d7a7a;
+    background-color: #585858;
 
 }
 
@@ -118,7 +119,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #c9c9c9;
+    background-color: #afafaf;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -135,5 +136,26 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #ffffff;
+}
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+.alto-contraste{
+    .alto-contraste #tropicalia {
+        background: none;
+    }
+    
+}
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
 }
